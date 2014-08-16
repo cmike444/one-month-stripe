@@ -39,6 +39,9 @@ gem 'jbuilder', '~> 1.2'
 # Stripe Payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Figaro Gem for secure credentials
+gem "figaro"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
