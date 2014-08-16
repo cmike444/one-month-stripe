@@ -8,6 +8,8 @@ OneMonthStripePayments::Application.routes.draw do
   # Support Stripe Payments through Charges
   resources :charges
 
+  resources :purchases, only: [:show]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
